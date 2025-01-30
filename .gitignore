@@ -1,0 +1,14 @@
+# Ignore .env file that contains sensitive API keys
+.env
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore FastAPI server files
+*.log
+
+# Ignore virtual environment directories
+venv/
+.env/
